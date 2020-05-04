@@ -24,8 +24,11 @@ una replica de netflix, una site para compartir contenidos gratuitos ... ¡lo qu
 
 ## Objetivos de aprendizaje
 
-- Enfrentarte a un reto de corta duración en el que pongas
+- Enfrentarlas a un reto de corta duración en el que pongan
   en práctica todo lo aprendido hasta ahora.
+  
+- Que apliquen sus creatividad, ingenio y capacidad de solicionar problemas,
+  para resolver un reto real.
   
 - Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
   personas en un equipo de trabajo, mayor complejidad para: tener un
