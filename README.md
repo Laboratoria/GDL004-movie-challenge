@@ -6,12 +6,13 @@
 
 Proyecto desarrollado durante el  **Movie Challenge**, realizado por Laboratoria Guadalajara en modo remoto, los dias del 4 al 7 de mayo del 2020.
 
-El nombre del equipo es The yellow hat :yellow_heart:
+El nombre del equipo es :yellow_heart: **The Yellow Hat** :yellow_heart:
+
 Conformado por:
-[Erika Pacheco](https://github.com/erika-nath)
-[Laura Barragan](https://github.com/lauracbf)
-[María Lujan Navarro](https://github.com/LujanWorld)
-[Mónica Martínez Sosa](https://github.com/MonicaMartz)
+- [Erika Pacheco](https://github.com/erika-nath)
+- [Laura Barragan](https://github.com/lauracbf)
+- [María Lujan Navarro](https://github.com/LujanWorld)
+- [Mónica Martínez Sosa](https://github.com/MonicaMartz)
 
 ## Definición del producto
 
