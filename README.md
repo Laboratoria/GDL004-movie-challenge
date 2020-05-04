@@ -1,16 +1,5 @@
 # Movie Challenge
 
-## Índice
-
-- [Preámbulo](#preámbulo)
-- [Resumen del proyecto](#resumen-del-proyecto)
-- [Consideraciones generales](#consideraciones-generales)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Avances necesarios](#avances-necesarios)
-- [Consideraciones técnicas](#consideraciones-técnicas)
-
----
-
 ## Preámbulo
 
 Con la llegada de la pandemia generada por el COVID-19 a nuestras vidas
