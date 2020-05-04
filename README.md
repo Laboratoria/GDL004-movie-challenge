@@ -12,7 +12,7 @@ necesidad básica.
 ## Resumen del proyecto
 
 Durante estos días crearán el producto que quieran alrededor del mundo
-de las películas,que les permita sobrellevar el distanciamiento social.
+de las películas, que les permita sobrellevar el distanciamiento social.
 Puede ser un sitio de reseñas de las mejores películas
 latinoamericanas, uno que recomiende las películas recién estrenadas en algún servicio de streaming,
 una replica de netflix, una site para compartir contenidos gratuitos ... ¡lo que quieran!
