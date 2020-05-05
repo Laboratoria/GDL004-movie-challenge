@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+* [1. Our Project](#Our-Project)
+* [2. Low fidelity Prototypes](#2LOW-FIDELITY-PROTOTYPES)
+* [3. High fidelity Prototypes](#HIGH-FIDELITY-PROTOTYPES)
+* [4. Final Results](#4-FINAL-RESULTS)
+* [4. Notes](#4-NOTES)
 
-In the project directory, you can run:
+You can see this project at [LabMoovies](https:).
 
-### `npm start`
+## Our Project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was elaborated with "Create-React-App", in orders to create a website where users could find out information about their favorite movies like the public's acceptance or rejection rating and movie trailers, as well as streaming. Our site has a search option to find your favorite movie, also you can se the categories is case you don't know "What you want to see" yet. Finally we have the display of the films and their information.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### LOW FIDELITY PROTOTYPES
 
-### `npm test`
+Since the beginning the project was planned for users who wanted to know the recommendations of other users about the movies. This is the reason, our low-fidelity prototypes are like this.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### HIGH FIDELITY PROTOTYPES
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Trying to build this on our low fidelity prototypes, we created our "high fidelity" prototypes, with the color palette we chose and the implementation of improvements.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### FINAL RESULTS
 
-### `npm run eject`
+Once we finish the construction of our site, and trying to stick as well as possible to our high-fidelity prototypes, the result is presented below.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### NOTES:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project was created with the collaboration of 4 women, in a period of 3 days. In that time the project was presented to us, we created the planning, we specified development times, we divided tasks and established rules.
+The purpose was to test ourselves to realize the skills acquired and improved as developers. If you want to know their work, below I present their GutHub profiles.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Bianca Cardona](https://github.com/Biancardona)
+* [Brenda Sandoval](https://github.com/Sahory31)
+* [Itzá Carrillo](https://github.com/ItzaCarrillo)
+* [Yaidi García](https://github.com/Yaidi)

@@ -6,20 +6,18 @@ export class SearchForm extends Component {
     state = {
         inputMovie: ''
     }
-
     _handleChange = (e) => {
         this.setState({ inputMovie: e.target.value })
     }
-
     _handleSubmit = (e) => {
         e.preventDefault()
-        const { inputMovie } = this.state
+        const { inputMovie } = this.state;
         
         fetch(`http://www.omdbapi.com/?apikey=${APY_KEY}&s=${inputMovie}`)
             .then(res => res.json())
             .then(results => {
                 console.log(results)
-            })
+            });
         }
 
     render(){
