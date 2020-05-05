@@ -1,10 +1,9 @@
 import React from 'react';
-import { SearchForm } from './Components/SearchForm';
-import  DataLoader  from './Views/Home';
-import AllMovies from './Views/AllMovies';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-import 'bulma/css/bulma.css'
+import 'bulma/css/bulma.css';
+/* THIS IS THE VIEWS IMPORTS*/
+import AllMovies from './Views/AllMovies';
+import Home from './Views/Home';
 
 function App() {
   return (
@@ -13,18 +12,12 @@ function App() {
       <header className="App-header">
       </header>
       <Switch> 
-    <Route path='/' exact component={Home} />
+    <Route exact path='/' component={Home} />
     <Route path='/allmovies' component={AllMovies} />
       </Switch>
     </div>
     </Router>
   );
 }
-const Home =() => (
-  <div>
-  <h1>This is WWW (What We Watch) :D</h1>
-  <SearchForm/>
-  <DataLoader/>
-  </div>
-);
+
 export default App;
