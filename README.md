@@ -1,4 +1,4 @@
-# Hilarious Movies :movie_camera: :movie_camera:
+# En Proceso :movie_camera: :movie_camera:
 
 
 
@@ -6,7 +6,7 @@
 
 Proyecto desarrollado durante el  **Movie Challenge**, realizado por Laboratoria Guadalajara en modo remoto, los dias del 4 al 7 de mayo del 2020.
 
-El nombre del equipo es :yellow_heart: **The Yellow Hat** :yellow_heart:
+El nombre del equipo es :yellow_heart:**The Yellow Hat**:yellow_heart:
 
 Conformado por:
 - [Erika Pacheco](https://github.com/erika-nath)
@@ -16,11 +16,15 @@ Conformado por:
 
 ## Definición del producto
 
-Debido al distanciamiento social, miles de personas nos hemos visto en la necesitad de no salir más que a lo estrictamente necesario, e independientemente de nuestras labores y obligaciones diarias ahora desde casa, todos necesitamos de un espacio de regreación, un momento en que podamos relajarnos y reir un rato.
+Debido al distanciamiento social, miles de personas nos hemos visto en la necesitad de no salir más que a lo estrictamente necesario, e independientemente de nuestras labores y obligaciones diarias ahora desde casa, todos necesitamos de un espacio de regreación, un momento en que podamos relajarnos y revivir las emociones que nuestra amada y odiada "Game Of Thrones" no ha traido.
 
-Con este objetivo creamos "Hilarios Movies", una aplicación que consiste en encontrar reseñas de peliculas cómicas, en donde los usuarios podrán evaluar que peliculas les son atractivas y cual será la siguiente en su repertorio.
+Con este objetivo creamos "En Proceso", una aplicación que consiste en un espacio en donde podemos encontrar reseñas de los cápitulos de las 8 temporadas de esta serie. No importa si ya la viste completa y más de una vez o si eres nuevo, aquí encontrarás todos los capitulos con la información necesaria para recordarlos o conocerlos.
+
+
+
 
  ***
+
  ***
 
 
