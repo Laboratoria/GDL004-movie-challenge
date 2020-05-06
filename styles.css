@@ -1,3 +1,69 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+box-sizing: inherit;
+
+}
+
 body{
-    background-color: aqua;
+background-color: #1b1b1b;
+font-family: 'Righteous', cursive;
+
+}
+
+
+nav {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a {
+    margin-left: 10px;
+    color: #ffc300;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: coral;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: #ffc300;
+    padding: 15px;
+    width: 100%;
+}
+
+.info-seasons{
+    color: yellow;
+}
+
+div.footer-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: #ffc300;
+    min-height: 3rem;
 }
