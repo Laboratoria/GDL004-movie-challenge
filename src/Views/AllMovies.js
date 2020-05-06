@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import useFetch from '../Components/UseFetch';
 
 export default function DataLoader({match}) {
@@ -7,8 +8,11 @@ export default function DataLoader({match}) {
                 <div>
                     <ul>
                         {data.map (el => (
-                            <li key={el.imdbID}>{el.Title}</li>
-                        ))}
+                            <li> 
+                            <Link key={el.imdbID} to={`/moviedetail/${el.imdbID}`}> 
+                            <img src= {el.Poster}  alt =""/> <li> 
+                             {el.Title} </li> </Link>
+                            </li>))}
                     </ul>
                 </div>
             );
