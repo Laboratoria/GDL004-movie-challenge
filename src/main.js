@@ -17,15 +17,54 @@ Promise.all(moviesPromises)
   })
   .then((dataArray) => {
     renderMovieGrid(dataArray);
+
+    console.log(dataArray)
+
   })
   .catch((err) => {});
 
 function renderMovieGrid(dataArray) {
-  dataArray.forEach((element) => {
-    let card = `
-      <div>
-        <h1>${element.title}</h1>
-      </div>
-     `;
+
+   const readSeries = document.getElementById("temporada");
+    readSeries.innerHTML = "";
+
+    const containerTemporada = document.createElement("div");
+    containerTemporada.setAttribute("id","containerTemporada");
+
+    dataArray.forEach((element) => {
+
+    console.log(element)
+    console.log(element.Title)
+    console.log(element.Season)
+    console.log(element.Episodes)
+    console.log(element.Episodes.length)
+
+    const containerTemporada = document.createElement("div");
+    containerTemporada.setAttribute("id","containerTemporada");
+    
+
+    const titleContainer = document.createElement("h2")
+    const title = document.createTextNode(`${element.Title}`);
+    
+    titleContainer.appendChild(title)
+
+    const SeasonContainer = document.createElement("h3")
+    const season = document.createTextNode("Temporada: " + `${element.Season}`);
+
+    SeasonContainer.appendChild(season)
+
+
+    const episodesContainer= document.createElement("h4")
+    const episodes = document.createTextNode("Número de Episodios: "+`${element.Episodes.length}`);
+
+    episodesContainer.appendChild(episodes)
+    containerTemporada.appendChild(titleContainer)
+    containerTemporada.appendChild(SeasonContainer)
+    containerTemporada.appendChild(episodesContainer)
+    temporada.appendChild(containerTemporada)
+
   });
 }
+
+
+
