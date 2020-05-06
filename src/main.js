@@ -17,11 +17,14 @@ Promise.all(moviesPromises)
   })
   .then((dataArray) => {
     renderMovieGrid(dataArray);
+
     console.log(dataArray)
+
   })
   .catch((err) => {});
 
 function renderMovieGrid(dataArray) {
+
    const readSeries = document.getElementById("temporada");
     readSeries.innerHTML = "";
 
@@ -38,7 +41,7 @@ function renderMovieGrid(dataArray) {
 
     const containerTemporada = document.createElement("div");
     containerTemporada.setAttribute("id","containerTemporada");
-    containerTemporada.setAttribute("class","containerTemporada");
+    
 
     const titleContainer = document.createElement("h2")
     const title = document.createTextNode(`${element.Title}`);
