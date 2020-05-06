@@ -1,14 +1,25 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
-const API_KEY = 'f1ea449'
-export default function useFetch(inputMovie) {
-const [data, setData] = useState([]);
+const API_KEY = 'f1ea449';
 
-useEffect(() => {
+export function useFetch(inputMovie) {
+  const [data, setData] = useState([]);
+  useEffect(() => {
     fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
-    .then(response =>response.json())
-    .then(data => setData(data.Search));
-}, [inputMovie]);
+      .then((response) => response.json())
+      .then((data) => setData(data.Search));
+  }, [inputMovie]);
 
-return data;
+  return data;
+}
+
+export function PlotDetail(idMovie) {
+  const [item, setItem] = useState([]);
+  useEffect(() => {
+    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`)
+      .then((response) => response.json())
+      .then((item) => setItem(item));
+  }, [idMovie]);
+
+  return item;
 }
