@@ -1,30 +1,17 @@
-
 import React from 'react';
 import {Link} from 'react-router-dom';
-// import useFetch from '../Components/UseFetch';
+import { SearchForm } from '../Components/SearchForm';
+//import DataLoader from '../Components/UseFetch';
 
+const Home =() => {
 
-export default function SearchResult(){
-  return (
-      <div>
-           <Link to= {`/AllMovies/`}>StarWars
-          </Link>
-
-      </div>
-  )
+return(
+  <div>
+  <h1>LAB MOVIES</h1>
+  <SearchForm/>
+  <Link to= {`/AllMovies/`}>StarWars </Link>
+  </div>
+)
 }
-// export default function DataLoader(props) {
-//     const data = useFetch('star');
-//     return (
-//                 <div>
-//                     <ul>
-//                         {data.map (el => (
-//                             <li key={el.imdbID}>{el.Title} </li>
-//                         ))}
-//                     </ul>
-//                 </div>
-//             );
-        
-// }
-
+export default Home
 
