@@ -18,19 +18,33 @@ This project was elaborated with "Create-React-App", in orders to create a websi
 ### LOW FIDELITY PROTOTYPES
 
 Since the beginning the project was planned for users who wanted to know the recommendations of other users about the movies. This is the reason, our low-fidelity prototypes are like this.
+
+##### First Idea About the App
 ![First Idea About the App](readmeImgs/labMoviesIdea.jpg)
+
+##### App logo
 ![Logo App](readmeImgs/LabMoviesLogo.jpg)
+
+##### Main Page Info Movies
 ![MainpageInfo](readmeImgs/labMoviesStart.jpg)
+
+##### Show Movies Page
 ![Showmoviespage](readmeImgs/labMooviesProt.jpg)
+
+##### Info Movies PopUp
 ![Infomovies](readmeImgs/LabMoviesInfo.jpg)
 
 
 ### HIGH FIDELITY PROTOTYPES
 
 Trying to build this on our low fidelity prototypes, we created our "high fidelity" prototypes, with the color palette we chose and the implementation of improvements.
- 
+ ##### Logo Movies
 ![LogoMovies](readmeImgs/logoLabMovies2.png)
+
+##### Show Movies Page
 ![showmoviespage](readmeImgs/hf-genreMovies.jpg)
+
+##### Information Movies Pop Up
 ![infomoviesPopup](readmeImgs/hf-Info.jpg)
 
 
