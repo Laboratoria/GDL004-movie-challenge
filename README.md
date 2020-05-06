@@ -28,9 +28,11 @@ Since the beginning the project was planned for users who wanted to know the rec
 ### HIGH FIDELITY PROTOTYPES
 
 Trying to build this on our low fidelity prototypes, we created our "high fidelity" prototypes, with the color palette we chose and the implementation of improvements.
+ 
 ![LogoMovies](readmeImgs/logoLabMovies2.png)
 ![showmoviespage](readmeImgs/hf-genreMovies.jpg)
 ![infomoviesPopup](readmeImgs/hf-Info.jpg)
+
 
 ### FINAL RESULTS
 
