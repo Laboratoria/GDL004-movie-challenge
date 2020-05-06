@@ -46,7 +46,7 @@ function renderMovieGrid(dataArray) {
     titleContainer.appendChild(title)
 
     const SeasonContainer = document.createElement("h3")
-    const season = document.createTextNode(`${element.Season}`);
+    const season = document.createTextNode("Temporada: " + `${element.Season}`);
 
     SeasonContainer.appendChild(season)
 
@@ -59,8 +59,6 @@ function renderMovieGrid(dataArray) {
     containerTemporada.appendChild(SeasonContainer)
     containerTemporada.appendChild(episodesContainer)
     temporada.appendChild(containerTemporada)
-
-  
 
   });
 }

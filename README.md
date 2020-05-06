@@ -73,7 +73,6 @@ Como usuario me gustaria poder compartir el contenido de la pagina
 
 
 
-
  ***
 
  ***
