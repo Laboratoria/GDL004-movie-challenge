@@ -1,3 +1,6 @@
+
+[Logo Movies](readmeImgs\logoLabMovies2.png)
+
 ## Índice
 
 * [1. Our Project](#Our-Project)
@@ -6,7 +9,7 @@
 * [4. Final Results](#4-FINAL-RESULTS)
 * [4. Notes](#4-NOTES)
 
-You can see this project at [LabMoovies](https:).
+You can see this project at [LabMoovies](https://labmovies.web.app/).
 
 ## Our Project
 
@@ -15,12 +18,19 @@ This project was elaborated with "Create-React-App", in orders to create a websi
 ### LOW FIDELITY PROTOTYPES
 
 Since the beginning the project was planned for users who wanted to know the recommendations of other users about the movies. This is the reason, our low-fidelity prototypes are like this.
-
+![First Idea About the App](readmeImgs\labMoviesIdea.jpg)
+![Logo App](readmeImgs\LabMoviesLogo.jpg)
+![Main page Info](readmeImgs\labMoviesStart.jpg)
+![Show movies page](readmeImgs\labMooviesProt.jpg)
+![Info movies](readmeImgs\LabMoviesInfo.jpg)
 
 
 ### HIGH FIDELITY PROTOTYPES
 
 Trying to build this on our low fidelity prototypes, we created our "high fidelity" prototypes, with the color palette we chose and the implementation of improvements.
+[Logo Movies](readmeImgs\logoLabMovies2.png)
+[show movies page](readmeImgs\hf-genreMovies.jpg)
+[info movies Popup](readmeImgs\hf-Info.jpg)
 
 ### FINAL RESULTS
 
