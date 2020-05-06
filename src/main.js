@@ -23,6 +23,12 @@ Promise.all(moviesPromises)
   })
   .catch((err) => {});
 
+
+
+
+
+
+
 function renderMovieGrid(dataArray) {
 
    const readSeries = document.getElementById("temporada");
@@ -38,6 +44,10 @@ function renderMovieGrid(dataArray) {
     console.log(element.Season)
     console.log(element.Episodes)
     console.log(element.Episodes.length)
+
+    /*
+    const imgTemporada = document.createElement("img");
+    imgTemporada.setAttribute('src', './imagenesGOT');*/
 
     const containerTemporada = document.createElement("div");
     containerTemporada.setAttribute("id","containerTemporada");
