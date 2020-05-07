@@ -1,44 +1,67 @@
-# Stay-Home Movie Challenge
 
-## Preámbulo
+![Logo Movies](readmeImgs/logoLabMovies2.png)
 
-Con la llegada de la pandemia generada por el COVID-19 a nuestras vidas
-las plataformas para ver películas en la nube, como Netflix,
-Amazon Prime Video, HBO o inclusive YouTube, se han convertido en una
-necesidad básica.
+## Índice
 
-![#quedateencasa](https://media.tenor.com/images/b6bc059836dfea8e643b77a347470d25/tenor.gif)
+* [1. Our Project](#Our-Project)
+* [2. Low fidelity Prototypes](#2LOW-FIDELITY-PROTOTYPES)
+* [3. High fidelity Prototypes](#HIGH-FIDELITY-PROTOTYPES)
+* [4. Final Results](#4-FINAL-RESULTS)
+* [4. Notes](#4-NOTES)
 
-## Resumen del proyecto
+You can see this project at [LabMoovies](https://labmovies.web.app/).
 
-Durante estos días crearán el producto que quieran alrededor del mundo
-de las películas, que les permita sobrellevar el distanciamiento social.
-Puede ser un sitio de reseñas de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en algún servicio de streaming,
-una replica de netflix, una site para compartir contenidos gratuitos ... ¡lo que quieran!
+## Our Project
 
-## Consideraciones generales
+This project was elaborated with "Create-React-App", in orders to create a website where users could find out information about their favorite movies like the public's acceptance or rejection rating and movie trailers, as well as streaming. Our site has a search option to find your favorite movie, also you can se the categories is case you don't know "What you want to see" yet. Finally we have the display of the films and their information.
 
-- Este proyecto se debe resolver en equipos de 4 o 5 personas
-- Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
+### LOW FIDELITY PROTOTYPES
 
-## Objetivos de aprendizaje
+Since the beginning the project was planned for users who wanted to know the recommendations of other users about the movies. This is the reason, our low-fidelity prototypes are like this.
 
-- Enfrentarlas a un reto de corta duración en el que pongan
-  en práctica todo lo aprendido hasta ahora.
-  
-- Que apliquen sus creatividad, ingenio y capacidad de solicionar problemas,
-  para resolver un reto real.
-  
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
+##### First Idea About the App
+![First Idea About the App](readmeImgs/labMoviesIdea.jpg)
 
-## Entregables
+##### App logo
+![Logo App](readmeImgs/LabMoviesLogo.jpg)
 
-- Repositorio en github
-- Url publica de despliegue del proyecto
+##### Main Page Info Movies
+![MainpageInfo](readmeImgs/labMoviesStart.jpg)
 
-## Restricciones técnicas
+##### Show Movies Page
+![Showmoviespage](readmeImgs/labMooviesProt.jpg)
 
-Ninguna
+##### Info Movies PopUp
+![Infomovies](readmeImgs/LabMoviesInfo.jpg)
+
+
+### HIGH FIDELITY PROTOTYPES
+
+Trying to build this on our low fidelity prototypes, we created our "high fidelity" prototypes, with the color palette we chose and the implementation of improvements.
+ ##### Logo Movies
+![LogoMovies](readmeImgs/logoLabMovies2.png)
+
+##### Show Recomended Movies Page
+![showmoviespage](readmeImgs/hf-genreMovies.jpg)
+
+##### Show Movies Page
+![infomoviesPopup](readmeImgs/allMovies.jpg)
+
+##### Information Movies Pop Up
+![infomoviesPopup](readmeImgs/hf-Info.jpg)
+
+
+### FINAL RESULTS
+
+Once we finish the construction of our site, and trying to stick as well as possible to our high-fidelity prototypes, the result is presented below.
+
+
+### NOTES:
+
+This project was created with the collaboration of 4 women, in a period of 3 days. In that time the project was presented to us, we created the planning, we specified development times, we divided tasks and established rules.
+The purpose was to test ourselves to realize the skills acquired and improved as developers. If you want to know their work, below I present their GutHub profiles.
+
+* [Bianca Cardona](https://github.com/Biancardona)
+* [Brenda Sandoval](https://github.com/Sahory31)
+* [Itzá Carrillo](https://github.com/ItzaCarrillo)
+* [Yaidi García](https://github.com/Yaidi)

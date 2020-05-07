@@ -1,0 +1,22 @@
+.buttonImage{
+width: 368px;
+height: 364px;
+left: 30px;
+top: 474px;
+}
+
+.titleSaga{
+    width: 427px;
+    height: 43px;
+    left: 33px;
+    top: 280px;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    
+    color: #000000;
+}
