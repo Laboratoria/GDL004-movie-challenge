@@ -3,6 +3,7 @@ import React from 'react';
 import Prompt from '../Components/modalMovies';
 import { useFetch } from '../Components/UseFetch';
 import Popup from "react-popup";
+import '../Styles/modal.css';
 
 export default function DataLoader({match}) {
     const data = useFetch(match.params.id);
@@ -33,18 +34,7 @@ function startPopup(){
             content: <Prompt data={data} />,
             className: 'popover',
             noOverlay: true,
-            position: function (box) {
-              let bodyRect      = document.body.getBoundingClientRect();
-              let btnRect       = target.getBoundingClientRect();
-              let btnOffsetTop  = btnRect.top - bodyRect.top;
-              let btnOffsetLeft = btnRect.left - bodyRect.left;
-              let scroll        = document.documentElement.scrollTop || document.body.scrollTop;
-  
-              box.style.top  = (btnOffsetTop - box.offsetHeight - 10) - scroll + 'px';
-              box.style.left = (btnOffsetLeft + (target.offsetWidth / 2) - (box.offsetWidth / 2)) + 'px';
-              box.style.margin = 0;
-              box.style.opacity = 1;
-          }
+
         })   
     });
 }

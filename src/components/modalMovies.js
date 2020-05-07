@@ -17,7 +17,6 @@ class Prompt extends Component {
         return(    
         <div>
             <div>
-            Hola
             <MovieDetail imdbID={data.imdbID}/>
             </div>
         </div>
