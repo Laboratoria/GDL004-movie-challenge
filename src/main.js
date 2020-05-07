@@ -4,7 +4,7 @@ for (let i = 1; i <= 8; i++) {
   let number = i;
   moviesPromises.push(
     fetch(
-      `http://www.omdbapi.com/?t=Game of Thrones&Season=${number}&apikey=842dc72`
+      `https://www.omdbapi.com/?t=Game of Thrones&Season=${number}&apikey=842dc72`
     )
   );
 }

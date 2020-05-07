@@ -20,7 +20,7 @@ Debido al distanciamiento social, miles de personas nos hemos visto en la necesi
 
 Con este objetivo creamos GOT Epic, una aplicación que consiste en un espacio en donde podemos encontrar reseñas de los cápitulos de las 8 temporadas de esta serie. No importa si ya la viste completa y más de una vez o si eres nuevo, aquí encontrarás todos los capitulos con la información necesaria para recordarlos o conocerlos.
 
-Prototipo
+Prototipo digital.
 
 https://www.figma.com/proto/RMrhW1XtpByUrSdQgH548R/Hilarious-Movies?node-id=1%3A2&scaling=scale-down
 
