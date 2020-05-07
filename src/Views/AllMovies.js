@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useFetch } from '../Components/UseFetch';
+import PopUpTest from '../Components/modalMovies';
 
 export default function DataLoader({ match }) {
   const data = useFetch(match.params.id);
@@ -15,9 +16,11 @@ export default function DataLoader({ match }) {
                 {el.Title}
               </li>
             </Link>
+            <PopUpTest />
           </li>
         ))}
       </ul>
     </div>
   );
 }
+

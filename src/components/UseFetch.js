@@ -22,4 +22,4 @@ export function PlotDetail(idMovie) {
   }, [idMovie]);
 
   return item;
-}
+} 
