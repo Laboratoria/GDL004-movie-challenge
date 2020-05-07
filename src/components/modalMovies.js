@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import { PlotDetail } from './UseFetch';
-import MovieDetail from '../Views/MovieDetail.js';
+// import { PlotDetail } from './UseFetch';
+import MovieDetail from '../Views/MovieDetail';
 
 class Prompt extends Component {
-    constructor(props) {
-        super(props);
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            data: this.props.data
+    this.state = {
+      data: this.props.data,
 
-        };
-    }
+    };
+  }
 
-    render() {
-        let {data} = this.state
-        return(    
+  render() {
+    const { data } = this.state;
+    return (
+      <div>
         <div>
-            <div>
-            <MovieDetail imdbID={data.imdbID}/>
-            </div>
+          <MovieDetail imdbID={data.imdbID} />
         </div>
-        )
-    }
+      </div>
+    );
+  }
 }
 
-  export default Prompt;
+export default Prompt;

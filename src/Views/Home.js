@@ -38,7 +38,7 @@ const Home = () => (
 
       <Saga image={HarryPotter} title="Harry Potter" wordKey="harry" to="/allmovies/harry" />
 
-      <Saga image={LordoftheRings} wordkey="lord" title="Lord Of The Rings" />
+      <Saga image={LordoftheRings} wordkey="lord" title="Lord Of The Rings" to="/allmovies/lord" />
 
 
     </div>
