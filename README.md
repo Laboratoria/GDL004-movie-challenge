@@ -64,6 +64,8 @@ Como usuario me gustaria poder seleccionar un capitulo mediante su poster y que 
 - Titulo
 - Sinopsis
 
+### Proyecto Terminado
+![Imagen Principa ](./src/img/imagePagina.png)
 
 
 
