@@ -13,8 +13,11 @@ export default function DataLoader({match}) {
                     <ul>
                         {data.map ((el, index) => (
                             <li key={index}> 
-                            <div onClick={() => {showPopOver(el)}}>
-                              
+                            <div onClick={(event) => {showPopOver(el, event)}}>
+                            <img src={el.Poster} alt="" />
+                            <p>
+                              {el.Title}
+                            </p>
                             </div>
                             </li>))}
                     </ul>
@@ -24,21 +27,28 @@ export default function DataLoader({match}) {
 }
 
 function startPopup(){
-     Popup.registerPlugin('popover', function (data) {
+     Popup.registerPlugin('popover', function (data, target) {
         this.create({
             title: 'Info Movie',
             content: <Prompt data={data} />,
             className: 'popover',
             noOverlay: true,
             position: function (box) {
-                box.style.margin = 0;
-                box.style.opacity = 1;
-            }
+              let bodyRect      = document.body.getBoundingClientRect();
+              let btnRect       = target.getBoundingClientRect();
+              let btnOffsetTop  = btnRect.top - bodyRect.top;
+              let btnOffsetLeft = btnRect.left - bodyRect.left;
+              let scroll        = document.documentElement.scrollTop || document.body.scrollTop;
+  
+              box.style.top  = (btnOffsetTop - box.offsetHeight - 10) - scroll + 'px';
+              box.style.left = (btnOffsetLeft + (target.offsetWidth / 2) - (box.offsetWidth / 2)) + 'px';
+              box.style.margin = 0;
+              box.style.opacity = 1;
+          }
         })   
     });
 }
 
-function showPopOver(data){
-  console.log(data);
-    Popup.plugins().popover(data);
+function showPopOver(data, event){
+    Popup.plugins().popover(data, event.target);
 }
