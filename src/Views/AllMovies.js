@@ -1,21 +1,46 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+import Popup from 'react-popup';
+import Prompt from '../Components/modalMovies';
 import { useFetch } from '../Components/UseFetch';
+import '../Styles/modal.css';
+
+function startPopup() {
+  Popup.registerPlugin('popover', function (data) {
+    this.create({
+      title: 'Info Movie',
+      content: <Prompt data={data} />,
+      className: 'popover',
+      noOverlay: true,
+
+    });
+  });
+}
+
+function showPopOver(data, event) {
+  Popup.plugins().popover(data, event.target);
+}
 
 export default function DataLoader({ match }) {
   const data = useFetch(match.params.id);
+  startPopup();
   if (data !== undefined) {
     return (
       <div>
+        <Popup />
         <ul>
           {data.map((el) => (
             <li>
-              <Link key={el.imdbID} to={`/moviedetail/${el.imdbID}`}>
+              <div
+                tabIndex={0}
+                role="button"
+                onClick={(event) => { showPopOver(el, event); }}
+              >
                 <img src={el.Poster} alt="" />
-                <li>
+                <p>
                   {el.Title}
-                </li>
-              </Link>
+                </p>
+              </div>
             </li>
           ))}
         </ul>
