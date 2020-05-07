@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after{
+    box-sizing: inherit;
+    
+    }
+  
+    body {
+        background-color: #1b1b1b;
+      
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        font-family: 'Righteous', cursive;
+        margin: 0;
+      }
+    h1 {
+        letter-spacing: 3px;
+        text-align: center;
+        color: #ffc300;
+      }
+
+      .text {
+        color: #ffc300;
+        text-align: left;
+      }
+      .title {
+        color: #ffc300;
+        text-align: left;
+      }
+      .series-container {
+        display: flex;
+        align-items: space-between;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        
+       
+      }
+      
+      .series {
+        background-color: #eee;
+        border-radius: 30px;
+        box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+        margin: 30px;
+        padding: 20px;
+        text-align: center;
+        width:250px;
+        height: 450px;
+        box-shadow: 5px 5px 20px 7px rgba(10, 44, 78, 0.986),
+        -5px -5px 20px 7px rgba(54, 53, 53, 0.938);
+               
+
+      }
+      .series:hover{
+        transform: translateY(-15px);
+        }
+      
+      .series .img-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+      }
+      
+      .series .img-container img {
+        margin-top: 20px;
+        max-width: 90%;
+      }
+      
+      .series .info {
+        margin-top: 20px;
+      }
+      
+      .series .number {
+        background-color: #ffc300;
+        border-radius: 10px;
+        font-size: 0.8em;
+        padding: 5px 10px;
+      
+      }
+      
+      .series .name {
+        margin: 15px 0 7px;
+        letter-spacing: 1px;
+      }
+      
+      nav {
+        justify-content: space-between;
+        padding: 10px;
+      }
+      
+      nav a {
+        margin-left: 10px;
+        color: #ffc300;
+        text-decoration: none;
+      }
+      
+      nav a:hover{
+        text-decoration: underline;
+        color: coral;
+          
+      }
+      
+      .main {
+        position: relative;
+        height: 100vh;
+   
+        
+      }
+      
+      .contenedorCards{
+        width: 100%;
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 80px;
+        float: right;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        align-items: center;
+        
+      }
+      .contenedor{
+        width: 85%;
+        max-width: 120rem;
+        margin: 0 auto;
+      }
+      
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        background-color: black;
+        color: #ffc300;
+        padding: 15px;
+        width: 100%;        
+
+      }
+      .info-serie {
+        font-size: 1.2em;
+        width: 70%;
+        text-align: center;
+        color: #d8d6d2;
+        margin-left: 16%;
+      }
+      
+      .info-seasons{
+        color: rgb(223, 223, 217);
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        letter-spacing: 4px;
+        align-items: center;
+        font-size: 1em;
+        margin-left: 8%;
+        margin-top: 5%;
+
+      }
+      img {
+        margin-top:10px;
+        width: 200px;
+      }
+
+      div.footer-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        bottom: 0;
+        text-align: center;
+        background-color: black;
+        color: #ffc300;
+        height: 3.5rem;
+        justify-content:center;
+        margin-top: 5%;
+
+
+      }
