@@ -1,8 +1,8 @@
 import React from 'react';
 import { PlotDetail } from '../Components/UseFetch';
 
-export default function MovieDetail({ match }) {
-  const item = PlotDetail(match.params.id);
+export default function MovieDetail({ imdbID }) {
+  const item = PlotDetail(imdbID);
   return (
     <div>
       <h1>
