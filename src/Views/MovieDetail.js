@@ -7,27 +7,27 @@ export default function MovieDetail({ imdbID }) {
     <div>
       <h1>
         Title:
-        {' '} 
+        {' '}
         {item.Title}
         {' '}
         <br />
-        Runtime: 
+        Runtime:
         {' '}
         {item.Runtime}
         <br />
-        Genre: 
+        Genre:
         {' '}
         {item.Genre}
         <br />
-        Director: 
+        Director:
         {' '}
         {item.Director}
         <br />
-        Actors: 
+        Actors:
         {' '}
         {item.Actors}
         <br />
-        Plot: 
+        Plot:
         {' '}
         {item.Plot}
         <br />
