@@ -39,22 +39,33 @@ html{
       }
       .series-container {
         display: flex;
-        flex-wrap: wrap;
         align-items: space-between;
         justify-content: center;
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1200px;display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        
+       
       }
       
       .series {
         background-color: #eee;
-        border-radius: 20px;
+        border-radius: 30px;
         box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
-        margin: 10px;
+        margin: 30px;
         padding: 20px;
         text-align: center;
         width:250px;
+        height: 450px;
+        box-shadow: 5px 5px 20px 7px rgba(10, 44, 78, 0.986),
+        -5px -5px 20px 7px rgba(54, 53, 53, 0.938);
+               
+
       }
+      .series:hover{
+        transform: translateY(-15px);
+        }
       
       .series .img-container {
         background-color: rgba(255, 255, 255, 0.6);
@@ -78,6 +89,7 @@ html{
         border-radius: 10px;
         font-size: 0.8em;
         padding: 5px 10px;
+      
       }
       
       .series .name {
@@ -99,17 +111,27 @@ html{
       nav a:hover{
         text-decoration: underline;
         color: coral;
+          
       }
       
       .main {
         position: relative;
         height: 100vh;
+   
+        
       }
       
       .contenedor{
-        width: 85%;
+        width: 100%;
         max-width: 120rem;
         margin: 0 auto;
+        padding: 80px;
+        float: right;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        align-items: center;
+        
       }
       
       .header-content {
@@ -120,21 +142,23 @@ html{
         background-color: black;
         color: #ffc300;
         padding: 15px;
-        width: 100%;
+        width: 100%;        
+
       }
       
       .info-seasons{
         color: yellow;
       }
-      
+
       div.footer-content {
         width: 100%;
         display: flex;
         align-items: center;
-        position: absolute;
         bottom: 0;
         text-align: center;
         background-color: black;
         color: #ffc300;
-        min-height: 3rem;
+        height: 2.5rem;
+        justify-content:center;
+
       }
