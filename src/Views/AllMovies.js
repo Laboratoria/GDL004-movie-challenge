@@ -4,6 +4,7 @@ import Popup from 'react-popup';
 import Prompt from '../Components/modalMovies';
 import { useFetch } from '../Components/UseFetch';
 import '../Styles/modal.css';
+import '../Styles/Allmovies.css';
 
 function startPopup() {
   Popup.registerPlugin('popover', function (data) {
@@ -28,22 +29,23 @@ export default function DataLoader({ match }) {
     return (
       <div>
         <Popup />
-        <ul>
-          {data.map((el) => (
-            <li>
-              <div
-                tabIndex={0}
-                role="button"
-                onClick={(event) => { showPopOver(el, event); }}
-              >
-                <img src={el.Poster} alt="" />
-                <p>
-                  {el.Title}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
+        <div className='columns is-multiline is-2'>
+                        {data.map ((el, index) => (
+                            <section key={index}> 
+                            <div className='movieSection' onClick={(event) => {showPopOver(el, event)}}>
+                            <figure>
+                            <div className='column'>
+                            
+                            <img src={el.Poster} alt="" />
+                            </div>
+                            <figcaption className='titleMovie'>
+                              {el.Title}
+                            </figcaption>
+                            </figure>
+                           
+                            </div>
+                            </section>))}
+                    </div>
       </div>
     );
   }

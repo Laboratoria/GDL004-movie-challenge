@@ -1,0 +1,26 @@
+.movieSection{
+    border: 20 px;
+width: 682px;
+height: 399px;
+left: 50px;
+top: 44px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+figure{
+    border: 10px ;
+}
+.titleMovie{
+    font-family: Ropa Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 38px;
+color: #000000;
+text-align: center;
+border: 5px;
+margin-top: 10px;
+}

@@ -5,7 +5,7 @@ const API_KEY = 'f1ea449';
 export function useFetch(inputMovie) {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
       .then((response) => response.json())
       .then((res) => setData(res.Search));
   }, [inputMovie]);
@@ -16,7 +16,7 @@ export function useFetch(inputMovie) {
 export function PlotDetail(idMovie) {
   const [item, setItem] = useState([]);
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`)
       .then((response) => response.json())
       .then((res) => setItem(res));
   }, [idMovie]);
