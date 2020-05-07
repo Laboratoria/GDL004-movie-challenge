@@ -53,6 +53,10 @@ function renderMovieGrid(dataArray) {
     containerTemporada.setAttribute("id","containerTemporada");
     containerTemporada.setAttribute("class","series")
     
+    const imgElm = document.createElement("img");
+    imgElm.setAttribute("src", `./img/seasons-got-0${element.Season}.jpg`);
+    imgElm.setAttribute("width", "200");
+    imgElm.setAttribute("height", "300");
 
     const titleContainer = document.createElement("h2")
     const title = document.createTextNode(`${element.Title}`);
@@ -69,6 +73,7 @@ function renderMovieGrid(dataArray) {
     const episodes = document.createTextNode("Número de Episodios: "+`${element.Episodes.length}`);
 
     episodesContainer.appendChild(episodes)
+    containerTemporada.appendChild(imgElm)
     containerTemporada.appendChild(titleContainer)
     containerTemporada.appendChild(SeasonContainer)
     containerTemporada.appendChild(episodesContainer)
