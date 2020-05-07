@@ -30,7 +30,8 @@ Promise.all(moviesPromises)
 
 
 function renderMovieGrid(dataArray) {
-
+   
+ 
    const readSeries = document.getElementById("temporada");
     readSeries.innerHTML = "";
 
@@ -76,29 +77,6 @@ function renderMovieGrid(dataArray) {
 
   });
 };
-
-
-
-/*
-var contenidoE = document.getElementById('divUno');
-let keyArrayE = [];
-for(let i = 1; i <= 8; i++){
-  let newKeyE = '';
-  let numberE = i;
-  var keyE = 'http://www.omdbapi.com/?t=Game of Thrones&Season=1&apikey=842dc72';
-  newKeyE = keyE.replace(1, numberE);
-  keyArrayE.push(newKeyE);
-}
-console.log(keyArrayE);
-keyArrayE.forEach((item) => {
-    fetch(item)
-    .then(data => data.json())
-    .then(data=>{
-          console.log(data)
-          // contenido.innerHTML = `${data.totalSeasons}`
-      })
-});
-*/
 
 
 
