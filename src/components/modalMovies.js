@@ -1,16 +1,28 @@
-import React from 'react';
-import Popup from "reactjs-popup";
+import React, { Component } from 'react';
+import { PlotDetail } from './UseFetch';
+import MovieDetail from '../Views/MovieDetail.js';
 
-const PopUpTest = () => (
-    <Popup trigger={<button> Trigger</button>} position="right center">
-      <div>
-        
-        <br/>
-        Esta es una prueba de PopUp
-        <br/>
-        aqui deberia ir la info de las peliculas
-      </div>
-    </Popup>
-  );
-  
-  export default PopUpTest;
+class Prompt extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            data: this.props.data
+
+        };
+    }
+
+    render() {
+        let {data} = this.state
+        return(    
+        <div>
+            <div>
+            Hola
+            <MovieDetail imdbID={data.imdbID}/>
+            </div>
+        </div>
+        )
+    }
+}
+
+  export default Prompt;
