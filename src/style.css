@@ -122,7 +122,7 @@ html{
         
       }
       
-      .contenedor{
+      .contenedorCards{
         width: 100%;
         max-width: 120rem;
         margin: 0 auto;
@@ -133,6 +133,11 @@ html{
         justify-content:center;
         align-items: center;
         
+      }
+      .contenedor{
+        width: 85%;
+        max-width: 120rem;
+        margin: 0 auto;
       }
       
       .header-content {
@@ -179,7 +184,9 @@ html{
         text-align: center;
         background-color: black;
         color: #ffc300;
-        height: 2.5rem;
+        height: 3.5rem;
         justify-content:center;
+        margin-top: 5%;
+
 
       }
