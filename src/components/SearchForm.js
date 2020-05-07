@@ -1,43 +1,39 @@
-import React, {Component} from 'react'
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
-const APY_KEY = 'f1ea449'
+export default function SearchForm() {
+  const history = useHistory();
+  let input = '';
 
-export class SearchForm extends Component {
-    state = {
-        inputMovie: ''
-    }
-    _handleChange = (e) => {
-        this.setState({ inputMovie: e.target.value })
-    }
-    _handleSubmit = (e) => {
-        e.preventDefault()
-        const { inputMovie } = this.state;
-        
-        fetch(`http://www.omdbapi.com/?apikey=${APY_KEY}&s=${inputMovie}`)
-            .then(res => res.json())
-            .then(results => {
-                console.log(results)
-            });
-        }
+  const handleChange = (e) => {
+    input = e.target.value;
+  };
 
-    render(){
-        return(
-            <form onSubmit={this._handleSubmit}>
-                <div className="field has-addons">
-                    <div className="control">
-                        <input 
-                        className="input"
-                        onChange={this._handleChange} 
-                        type="text" 
-                        placeholder="Movie to search..."/>
-                    </div>
-                    <div className="control">
-                        <button className="button is-info">
-                            Search
-                        </button>
-                    </div>
-                </div>
-            </form>
-        )
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    history.push(`/allmovies/${input}`);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="field has-addons">
+        <div className="control">
+          <input
+            className="input"
+            onChange={handleChange}
+            type="text"
+            placeholder="Movie to search..."
+          />
+        </div>
+        <div className="control">
+          <button
+            type="submit"
+            className="button is-info"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </form>
+  );
 }

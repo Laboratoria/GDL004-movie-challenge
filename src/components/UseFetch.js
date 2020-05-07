@@ -7,7 +7,7 @@ export function useFetch(inputMovie) {
   useEffect(() => {
     fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
       .then((response) => response.json())
-      .then((data) => setData(data.Search));
+      .then((res) => setData(res.Search));
   }, [inputMovie]);
 
   return data;
@@ -18,7 +18,7 @@ export function PlotDetail(idMovie) {
   useEffect(() => {
     fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&i=${idMovie}`)
       .then((response) => response.json())
-      .then((item) => setItem(item));
+      .then((res) => setItem(res));
   }, [idMovie]);
 
   return item;
