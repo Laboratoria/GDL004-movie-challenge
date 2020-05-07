@@ -29,6 +29,7 @@ html{
         text-align: center;
         color: #ffc300;
       }
+
       .text {
         color: #ffc300;
         text-align: left;
@@ -122,9 +123,29 @@ html{
         padding: 15px;
         width: 100%;
       }
+      .info-serie {
+        font-size: 1.2em;
+        width: 70%;
+        text-align: center;
+        color: #d8d6d2;
+        margin-left: 16%;
+      }
       
       .info-seasons{
-        color: yellow;
+        color: rgb(223, 223, 217);
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        letter-spacing: 4px;
+        align-items: center;
+        font-size: 1em;
+        margin-left: 8%;
+        margin-top: 5%;
+
+      }
+      img {
+        margin-top:10px;
+        width: 600px;
       }
       
       div.footer-content {
@@ -137,4 +158,8 @@ html{
         background-color: black;
         color: #ffc300;
         min-height: 3rem;
+      }
+
+      .fab fa-github {
+        color:#ffc300;
       }
