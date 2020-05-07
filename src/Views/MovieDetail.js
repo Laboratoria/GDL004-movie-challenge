@@ -6,14 +6,10 @@ export default function MovieDetail({ imdbID }) {
   return (
     <div>
       <h1>
-        {' '}
         Title:
+        {' '}
         {item.Title}
         {' '}
-        <br />
-        Plot:
-        {' '}
-        {item.Plot}
         <br />
         Runtime:
         {' '}
@@ -31,9 +27,10 @@ export default function MovieDetail({ imdbID }) {
         {' '}
         {item.Actors}
         <br />
-        Awards:
+        Plot:
         {' '}
-        {item.Awards}
+        {item.Plot}
+        <br />
       </h1>
     </div>
   );

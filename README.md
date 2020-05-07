@@ -41,8 +41,11 @@ Trying to build this on our low fidelity prototypes, we created our "high fideli
  ##### Logo Movies
 ![LogoMovies](readmeImgs/logoLabMovies2.png)
 
-##### Show Movies Page
+##### Show Recomended Movies Page
 ![showmoviespage](readmeImgs/hf-genreMovies.jpg)
+
+##### Show Movies Page
+![infomoviesPopup](readmeImgs/allMovies.jpg)
 
 ##### Information Movies Pop Up
 ![infomoviesPopup](readmeImgs/hf-Info.jpg)
